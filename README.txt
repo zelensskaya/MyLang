@@ -1,3 +1,15 @@
+-Działający interpreter z możliwością wykonania kodu
+-Obsługa zmiennych
+-Obsługa operatorów
+-Obsługa instrukcji warunkowej
+-Obsługa pętli
+-Obsługa komentarzy
+-Obsługa dodatkowych instrukcji
+-Obsługa błędów 
+
+----------------------------------------------------
+Uruchomienie programu:
+
 PowerShell script
 
 	.\run.ps1 program.txt
