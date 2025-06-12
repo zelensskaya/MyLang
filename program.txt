@@ -1,0 +1,61 @@
+zmienna a;
+zmienna b;
+a = 5;
+b = 10;
+
+jezeli (a < b i b == 10) wtedy {
+    wypisz "Warunek z i działa!";
+};
+
+jezeli (nie a > b) wtedy {
+    wypisz "Działa NIE!";
+};
+
+jezeli (a == 5 lub b == 0) wtedy {
+    wypisz "Warunek z LUB działa!";
+};
+
+zmienna x;
+zmienna y;
+x = 3;
+y = 4;
+wypisz "x = " + x + " y = " + y;
+
+jezeli (x > y) wtedy {
+    wypisz "dziala jezeli";
+}
+inaczej {
+    wypisz "dziala inaczej";
+};
+
+##to komentarz jednoliniowy
+
+/# 
+to komentarz
+wieloliniowy
+#/
+
+wczytaj num;
+wypisz num;
+num = num - 1;
+wypisz num;
+
+
+zmienna abc;
+abc = 0;
+dopoki (abc <= 5) wykonuj {
+    wypisz "abc = " + abc;
+    abc = abc + 1;
+};
+
+wczytaj num1;
+wypisz num1;
+
+zmienna new;
+new = 5;
+++new;
+wypisz new;
+--new;
+wypisz new;
+new = 5 / 2;
+wypisz new;
